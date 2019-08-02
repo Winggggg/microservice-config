@@ -13,6 +13,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka-dev.com:7001/eureka/
+
+wing:
+  hello: hello world dev!!!
 ---
 server:
   port: 8202
@@ -24,3 +27,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka-test2.com:7001/eureka/
+wing:
+  hello: hello world test!!!
