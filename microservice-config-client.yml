@@ -9,9 +9,13 @@ spring:
   application:
     name: microservicecloud-config-client
 eureka:
-  client:
+  client: #客户端注册进eureka服务列表内
     service-url:
-      defaultZone: http://eureka-dev.com:7001/eureka/
+      #defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: microservice-config-client3355
+    prefer-ip-address: true     #访问路径可以显示IP地址
 
 wing:
   hello: hello world dev6666!!!
@@ -23,8 +27,12 @@ spring:
   application:
     name: microservicecloud-config-config-client
 eureka:
-  client:
+  client: #客户端注册进eureka服务列表内
     service-url:
-      defaultZone: http://eureka-test2.com:7001/eureka/
+      #defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: microservice-config-client3355
+    prefer-ip-address: true     #访问路径可以显示IP地址
 wing:
   hello: hello world test!!!
