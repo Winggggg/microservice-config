@@ -14,7 +14,7 @@ eureka:
       defaultZone: http://eureka-dev.com:7001/eureka/
 
 wing:
-  hello: hello world dev5555!!!
+  hello: hello world dev6666!!!
 ---
 server:
   port: 8202
