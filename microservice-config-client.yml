@@ -18,7 +18,7 @@ eureka:
     prefer-ip-address: true     #访问路径可以显示IP地址
 
 wing:
-  hello: hello world dev6666!!!
+  hello: hello world dev0806!!!
 ---
 server:
   port: 8202
@@ -35,4 +35,4 @@ eureka:
     instance-id: microservice-config-client3355
     prefer-ip-address: true     #访问路径可以显示IP地址
 wing:
-  hello: hello world test!!!
+  hello: hello world test0806!!!
